@@ -1,14 +1,15 @@
 export default {
-    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-    theme: {
-      extend: {
-        colors: {
-          'cozy-pink': {
-            100: '#ffe4ec', // kendi rengini buraya gir
-          },
-        },
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'cozy-pink-100': '#FADADD' ,// İstediğin hex kodunu buraya yazabilirsin
+        'cozy-pink-500': '#F472B6', // İstediğin hex kodunu buraya yazabilirsin
       },
     },
-    plugins: [],
-  }
-  
+  },
+  plugins: [],
+}

@@ -22,7 +22,7 @@ const TodoInput = ({ addTodo }) => {
         />
         <button
           type="submit"
-          className="px-8 py-4 bg-cozy-pink-400 text-white rounded-2xl hover:bg-cozy-pink-500 transition-colors font-semibold shadow-lg shadow-cozy-pink-200"
+          className="px-8 py-4 bg-cozy-pink-500 text-white rounded-2xl hover:bg-cozy-pink-200 transition-colors font-semibold shadow-lg shadow-cozy-pink-200"
         >
           Add
         </button>
